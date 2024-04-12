@@ -1,3 +1,4 @@
+import './App.css'
 export function TodoItem({completed,id,title,toggleTodo,deleteTodo}){
     return (
         <li>

@@ -1,3 +1,6 @@
+/* *{
+  background-color: #61dafb;
+} */
 .App {
   text-align: center;
 }
@@ -36,5 +39,57 @@
     transform: rotate(360deg);
   }
 }
+
+
+.new-item-form {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #ff6b6b, #56ccf2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.new-item-form .form-row {
+  margin-bottom: 15px;
+}
+
+.new-item-form label {
+  font-size: 18px;
+  color: #fff;
+}
+
+.new-item-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: background-color 0.3s ease;
+}
+
+.new-item-form input[type="text"]:focus {
+  outline: none;
+  background-color: #fff;
+}
+
+.new-item-form button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.new-item-form button:hover {
+  background-color: #388e3c;
+}
+
+
+
+
 
 
